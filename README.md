@@ -20,15 +20,16 @@ Create a binary classifier that is capable of predicting whether applicants will
 - Were you able to achieve the target model performance?
   - No
 - What steps did you take to try and increase model performance?
-  1. USE_CASE feature was dropped initially with a .1% drop in accuracy. 
+ 
+ 1. USE_CASE feature was dropped initially with a .1% drop in accuracy. 
  
 ![Optimization Result 1](https://github.com/K3Rob/Neural_Network_Charity_Analysis/blob/main/Neural_Network_Charity_Analysis/Images/OptRes1.PNG)
 
-  2. Second attempt at optimization was increasing the number of neurons in the second layer from 30 to 50 which gave a .5% increase in accuracy.
+2. Second attempt at optimization was increasing the number of neurons in the second layer from 30 to 50 which gave a .5% increase in accuracy.
  
 ![Optimization Result 2](https://github.com/K3Rob/Neural_Network_Charity_Analysis/blob/main/Neural_Network_Charity_Analysis/Images/OptRes2.PNG)
 
-  3. Finally a third layer was added and neurons adjusted to 80, 40, and then 20 neurons per layer giving a .1% drop in accuracy.
+3. Finally a third layer was added and neurons adjusted to 80, 40, and then 20 neurons per layer giving a .1% drop in accuracy.
 
 ![Optimization Result 3](https://github.com/K3Rob/Neural_Network_Charity_Analysis/blob/main/Neural_Network_Charity_Analysis/Images/OptRes3.PNG)
 
